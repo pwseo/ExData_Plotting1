@@ -6,6 +6,8 @@ source('load.R')
 # Open up the PNG device (with transparent background, like Roger Peng's
 # original png files)
 png('plot4.png', width = 480, height = 480, bg = 'transparent')
+
+# We want 4 plots in a 2x2 layout, with row-wise filling.
 par(mfrow = c(2,2))
 
 # The plotting instructions.
